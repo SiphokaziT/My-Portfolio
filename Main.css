@@ -1,0 +1,106 @@
+/* https://fonts.google.com/ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.018));
+}
+
+.header {
+    min-height: 5vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: palevioletred;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 6px 4px 16px 14px;
+    color: peachpuff;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 24px 26px 24px;
+    color: black;
+    text-align: center;
+}
+
+.banner-wrap {
+    background-color: #d8d9da;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    top: 0%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    display: inline-block;
+
+}
+
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+
+.title-section {
+    margin-top: calc(100px - 50px);
+
+}
+
+
+.actions-area {
+    min-height: 35vh;
+    width: 100%;
+    text-align: center;
+}
+
+#btn {
+    background-color: #db36f46c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Footer {
+    background-color: #d8d9da;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5vh;
+    width: 100vw;
+    margin: auto;
+    top: 0%;
+    text-align: center;
+
+}
+
+.Footer p {
+    color: #d8d9da;
+}
